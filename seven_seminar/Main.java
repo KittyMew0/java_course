@@ -14,11 +14,11 @@ public class Main{
 		Scanner scanner = new Scanner(System.in); 
 		
 		while(true){ 
-			System.out.println("1.AddNote"); 
-			System.out.println("2.ShowNotesforDay"); 
-			System.out.println("3.ShowNotesforWeek"); 
-			System.out.println("4.SaveNotes"); 
-			System.out.println("5.LoadNotes");
+			System.out.println("1.Add Note"); 
+			System.out.println("2.Show Notes for Day"); 
+			System.out.println("3.Show Notes for Week"); 
+			System.out.println("4.Save Notes"); 
+			System.out.println("5.Load Notes");
 			System.out.println("6.Exit"); 
 			int choice=scanner.nextInt(); 
 			scanner.nextLine();
